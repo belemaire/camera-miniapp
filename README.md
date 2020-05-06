@@ -11,6 +11,7 @@ Some [necessary supporting code](https://github.com/electrode-io/electrode-nativ
 A PR has been opened in the master manifest, adding support for the latest version of this plugin https://github.com/electrode-io/electrode-native-manifest/pull/172 \
 This PR has to be merged to the master manifest, prior to running this app. Alternatively you can locally clone the manifest and checkout the branch that adds this plugin configuration, and set in `.ernrc` configuration the override manifest to point to your local clone.
 
+This README will be updated to reflect requirement changes once ern 0.41.1 version is released and/or manifest plugin configuration PR is merged.
 
 **Steps**
 
