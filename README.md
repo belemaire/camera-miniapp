@@ -7,12 +7,6 @@ This is a quick demo of [react-native-camera](https://github.com/react-native-co
 - **Electrode Native dev version (`1000.0.0`)**\
 Some [necessary supporting code](https://github.com/electrode-io/electrode-native/pull/1603) has not been released yet, and will be released in `0.41.1` patch version once validated. So for now just need to stick to dev version of ern.
 
-- **Manifest plugin configuration**\
-A PR has been opened in the master manifest, adding support for the latest version of this plugin https://github.com/electrode-io/electrode-native-manifest/pull/172 \
-This PR has to be merged to the master manifest, prior to running this app. Alternatively you can locally clone the manifest and checkout the branch that adds this plugin configuration, and set in `.ernrc` configuration the override manifest to point to your local clone.
-
-This README will be updated to reflect requirement changes once ern 0.41.1 version is released and/or manifest plugin configuration PR is merged.
-
 **Steps**
 
 - `yarn install`
