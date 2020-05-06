@@ -4,8 +4,7 @@ This is a quick demo of [react-native-camera](https://github.com/react-native-co
 
 **Requirements**
 
-- **Electrode Native dev version (`1000.0.0`)**\
-Some [necessary supporting code](https://github.com/electrode-io/electrode-native/pull/1603) has not been released yet, and will be released in `0.41.1` patch version once validated. So for now just need to stick to dev version of ern.
+- ern >= 0.41.1
 
 **Steps**
 
