@@ -330,12 +330,6 @@ export default class CameraScreen extends React.Component {
         whiteBalance={this.state.whiteBalance}
         ratio={this.state.ratio}
         focusDepth={this.state.depth}
-        androidCameraPermissionOptions={{
-          title: 'Permission to use camera',
-          message: 'We need your permission to use your camera',
-          buttonPositive: 'Ok',
-          buttonNegative: 'Cancel',
-        }}
         faceDetectionLandmarks={
           RNCamera.Constants.FaceDetection.Landmarks
             ? RNCamera.Constants.FaceDetection.Landmarks.all
